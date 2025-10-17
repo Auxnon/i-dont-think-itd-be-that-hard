@@ -52,3 +52,42 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# React Native / Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.tgz
+
+# React Native specific
+.expo/
+.expo-shared/
+dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Android/IntelliJ
+*.iml
+.idea/
+.gradle/
+local.properties
+*.apk
+*.aab
+
+# iOS
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+Pods/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.tmp/
