@@ -55,7 +55,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
       
       const user = await authService.login({
         email: userInfo.data?.user.email || '',
-        name: userInfo.data?.user.name,
+        name: userInfo.data?.user.name || undefined,
         photoUrl: userInfo.data?.user.photo || undefined,
         authProvider: 'google',
       });

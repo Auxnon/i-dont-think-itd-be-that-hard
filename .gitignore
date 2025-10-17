@@ -91,3 +91,8 @@ Pods/
 *.swo
 *~
 .tmp/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
